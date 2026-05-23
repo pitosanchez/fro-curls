@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="jarGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9B5DE5"/>
+      <stop offset="50%" stop-color="#4A1E5C"/>
+      <stop offset="100%" stop-color="#2D0E3F"/>
+    </linearGradient>
+    <linearGradient id="jarShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Lid -->
+  <ellipse cx="150" cy="90" rx="95" ry="22" fill="#F5C260"/>
+  <rect x="55" y="80" width="190" height="40" fill="#F5C260"/>
+  <ellipse cx="150" cy="120" rx="95" ry="14" fill="#D4A574"/>
+  <!-- Jar body -->
+  <rect x="55" y="120" width="190" height="220" rx="8" fill="url(#jarGrad)"/>
+  <ellipse cx="150" cy="340" rx="95" ry="22" fill="#1A0B2E"/>
+  <!-- Shine -->
+  <rect x="55" y="120" width="60" height="220" fill="url(#jarShine)"/>
+  <!-- Label band -->
+  <rect x="55" y="190" width="190" height="80" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Curl emblem -->
+  <g transform="translate(150, 220) scale(0.4)" stroke="#E91E63" stroke-width="9" fill="none" stroke-linecap="round">
+    <path d="M0 -25 Q22 -25 22 -5 Q22 18 0 18 Q-22 18 -22 38"/>
+  </g>
+  <text x="150" y="252" text-anchor="middle" font-family="serif" font-weight="700" font-size="16" fill="#3D1A4E" letter-spacing="3">FROCURLS</text>
+  <text x="150" y="268" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#FF6B35" letter-spacing="1.5">CURL BUTTER</text>
+</svg>

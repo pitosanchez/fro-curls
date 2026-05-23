@@ -1,86 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="FRO Curls - Natural Hair Care Products by Crystal"
-    />
-    <title>FRO Curls - Natural Hair Care</title>
-    <!-- Link to your external CSS -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FroCurls — the curl atelier for Caribbean-bold, sun-soaked, sensual curls. Founded by Crystal." />
+  <title>FroCurls — Where Curls Come To Reign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+  <div class="announce">
+    Free shipping on orders $60+ <span>✦</span> 30-day curl guarantee <span>✦</span> Made for island curls
+  </div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <nav class="nav-links">
+        <a href="index.html" class="is-active">The House</a>
+        <a href="products.html">Collection</a>
+        <a href="curls.html">Curl Guide</a>
+        <a href="about.html">About</a>
+        <a href="journal.html">Journal</a>
+        <a href="contact.html">Contact</a>
       </nav>
-    </header>
-
-    <!-- HERO SECTION -->
-    <section id="home" class="hero">
-      <img src="images/frobgtrans.png" alt="" />
-
-      <div class="hero-text">
-        <h1>FroCurls</h1>
-        <p>Where curls come to <span class="shine">Shine!</span></p>
+      <a href="index.html" class="brand"><span class="brand-mark">F</span>Fro<em>Curls</em></a>
+      <div class="nav-utility">
+        <button class="icon-btn" aria-label="Search">⌕</button>
+        <a href="#" class="cart-pill">Bag · 0</a>
       </div>
-    </section>
-    <!-- END HERO SECTION -->
+    </div>
+  </header>
 
-    <section id="about">
-      <h2>About FroCurls</h2>
-      <div class="bio">
-        <img
-          src="images/crys.jpeg"
-          alt="Crystal, CEO of FRO Curls"
-          class="bio-image"
-        />
-        <div class="bio-text">
-          <h3>Meet Crystal aka FRO Curls</h3>
-          <p>
-            Crystal's curly hair journey began in 2015, when she made the
-            decision to embrace her natural curls and embark on a path to
-            healthier hair. Ever since, she's been dreaming of creating a brand
-            that celebrates and supports the beauty of natural hair.
-          </p>
-          <p>
-            With a passion for self-love and curly hair empowerment, Crystal
-            founded FRO Curls with the mission of providing high-quality,
-            natural hair care products designed specifically for curly hair. At
-            FRO Curls, we believe that every curl is unique, and our products
-            are tailored to nourish and enhance the natural beauty of your
-            curls.
-          </p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="hero-eyebrow">The Curl Atelier · Est. 2015</span>
+        <h1>
+          Where <span class="italic">curls</span><br/>
+          come to <span class="accent">reign.</span>
+        </h1>
+        <p class="hero-lede">
+          Sun-drunk hydration for coils that catch the breeze. Made by Caribbean hands,
+          for the boldest crowns on the island and beyond.
+        </p>
+        <div class="hero-cta">
+          <a href="products.html" class="btn btn-primary">Shop the Collection <span class="btn-arrow">→</span></a>
+          <a href="curls.html" class="btn btn-ghost">Find your curl</a>
         </div>
       </div>
-    </section>
+      <div class="hero-visual">
+        <img src="assets/muse-hero.svg" alt="A muse with crown of curls illustrated in coral, plum and gold" />
+        <span class="hero-tag hero-tag-1">Caribbean ✦ Bold</span>
+        <span class="hero-tag hero-tag-2">Curl Couture</span>
+      </div>
+    </div>
+  </section>
 
-    <section id="products">
-      <h2>Our Products</h2>
-      <p>
-        Explore our range of products designed to keep your curls looking and
-        feeling their best. From shampoos and conditioners to styling creams and
-        oils, we've got everything you need to nourish and define your curls.
-      </p>
-      <!-- Add your product details here -->
-    </section>
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-item">Hydration</span>
+      <span class="marquee-item">Definition</span>
+      <span class="marquee-item">Bounce</span>
+      <span class="marquee-item">Shine</span>
+      <span class="marquee-item">Length retention</span>
+      <span class="marquee-item">Frizz, dismissed</span>
+      <span class="marquee-item">Hydration</span>
+      <span class="marquee-item">Definition</span>
+      <span class="marquee-item">Bounce</span>
+      <span class="marquee-item">Shine</span>
+      <span class="marquee-item">Length retention</span>
+      <span class="marquee-item">Frizz, dismissed</span>
+    </div>
+  </div>
 
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Have any questions? Feel free to reach out to us!</p>
-      <!-- Add your contact form or contact details here -->
-    </section>
+  <!-- PILLARS -->
+  <section class="section pillars">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">The Philosophy</span>
+        <h2 class="section-title">A house built on <span class="italic">four promises.</span></h2>
+        <p class="section-lede">Every formula begins on the islands — ingredients pulled from the same earth that grew us.
+          Clean. Conscious. Conjured for the way our hair actually moves.</p>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar reveal"><div class="pillar-num">01</div><h3>Island Botanicals</h3><p>Coconut, hibiscus, cassava, mango butter — sourced from the Caribbean cooperatives that raised us.</p></div>
+        <div class="pillar reveal reveal-delay-1"><div class="pillar-num">02</div><h3>Curl-True Science</h3><p>Cosmetic chemistry tuned for 3a–4c coils. No surfactants that strip, no silicones that lie.</p></div>
+        <div class="pillar reveal reveal-delay-2"><div class="pillar-num">03</div><h3>Slow Beauty</h3><p>Small batches, hand-poured. Because curls deserve the patience of a perfumer.</p></div>
+        <div class="pillar reveal reveal-delay-3"><div class="pillar-num">04</div><h3>Unmistakably Us</h3><p>Vegan. Cruelty-free. Designed by women whose hair has lived all your hair has lived.</p></div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-      <p>&copy; 2025 FRO Curls. All Rights Reserved.</p>
-    </footer>
-  </body>
+  <!-- FEATURE 1 -->
+  <section class="section">
+    <div class="container">
+      <div class="feature">
+        <div class="feature-visual reveal">
+          <img src="assets/muse-profile.svg" alt="Profile portrait of a curly-haired muse in coral and ocean blue" />
+          <span class="feature-overlay-tag">Volume 01 · Hydrate</span>
+        </div>
+        <div class="feature-content reveal reveal-delay-1">
+          <span class="eyebrow">The Ritual</span>
+          <h2>A weekly soak.<br/><span class="italic">A standing date</span> with your crown.</h2>
+          <p>Curls are thirsty things. They drink slow. The FroCurls weekly mask is built for the kind of hydration that lives inside the strand for days — not the kind that rinses out by dinner.</p>
+          <ul class="feature-list">
+            <li>Cold-pressed coconut + avocado butter for deep slip</li>
+            <li>Hibiscus extract to lock the cuticle and shine the surface</li>
+            <li>Built-in detangler — finger-comb dreaming</li>
+          </ul>
+          <a href="products.html" class="btn btn-dark">Meet the Mask <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-visual reveal">
+          <img src="assets/muse-joy.svg" alt="Joyful portrait of a Caribbean woman with afro halo" />
+          <span class="feature-overlay-tag">Volume 02 · Define</span>
+        </div>
+        <div class="feature-content reveal reveal-delay-1">
+          <span class="eyebrow">The Signature</span>
+          <h2>The curl, <span class="italic">archived.</span> Definition that doesn't crunch.</h2>
+          <p>A featherweight gel-cream that lets your coil keep its own choreography. No cast. No flake. Just spring, gloss, and the kind of bounce your aunties will stop you in the street to compliment.</p>
+          <ul class="feature-list">
+            <li>Flaxseed gel — the original, plant-based hold</li>
+            <li>Vitamin E + argan oil for high-gloss finish</li>
+            <li>Humidity-armored so frizz never gets the last word</li>
+          </ul>
+          <a href="products.html" class="btn btn-dark">Shop the Cream <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP STRIP -->
+  <section class="section shop">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">The Collection</span>
+        <h2 class="section-title">Bestsellers from <span class="italic">the atelier.</span></h2>
+      </div>
+
+      <div class="shop-grid">
+        <article class="product-card gold reveal">
+          <div class="product-img"><span class="product-badge bestseller">Bestseller</span><img src="assets/product-bottle.svg" alt="FroCurls Curl Elixir bottle" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Hair Oil</div>
+            <h3 class="product-name">Sun-Drunk Curl Elixir</h3>
+            <p class="product-desc">"For the days your hair wants to glow louder than you do."</p>
+            <div class="product-meta"><span class="product-price">$32</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card dark reveal reveal-delay-1">
+          <div class="product-img"><span class="product-badge new">New</span><img src="assets/product-jar.svg" alt="FroCurls Curl Butter jar" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Styling Butter</div>
+            <h3 class="product-name">Midnight Curl Butter</h3>
+            <p class="product-desc">"Hibiscus, mango, and the kind of slip that means business."</p>
+            <div class="product-meta"><span class="product-price">$38</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card blue reveal reveal-delay-2">
+          <div class="product-img"><span class="product-badge">Daily</span><img src="assets/product-spray.svg" alt="FroCurls Refresh Mist spray" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Refresh Mist</div>
+            <h3 class="product-name">Island Wake-Up Mist</h3>
+            <p class="product-desc">"Second-day curls, first-day audacity."</p>
+            <div class="product-meta"><span class="product-price">$26</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+      </div>
+
+      <div style="text-align:center; margin-top: 3.5rem;" class="reveal">
+        <a href="products.html" class="btn btn-ghost">Shop everything <span class="btn-arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDITORIAL QUOTE -->
+  <section class="editorial-quote">
+    <div class="container reveal">
+      <blockquote>
+        "My curls don't <span class="italic">behave</span> — they <span class="italic">announce.</span>"
+      </blockquote>
+      <cite>Crystal · Founder, FroCurls</cite>
+    </div>
+  </section>
+
+  <!-- QUIZ CTA -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container reveal">
+      <div class="quiz-cta">
+        <div>
+          <span class="eyebrow" style="color:var(--ink); ">In 60 seconds</span>
+          <h2>Find your <span class="italic">curl signature.</span></h2>
+          <p>Six questions. Your perfect ritual. Built around the way your hair actually behaves — humidity and all.</p>
+          <div class="quiz-stats" style="margin-top:1.5rem;">
+            <div><span>9</span>Curl pattern types</div>
+            <div><span>4</span>Climate profiles</div>
+            <div><span>60s</span>Average quiz</div>
+          </div>
+        </div>
+        <div class="quiz-actions">
+          <a href="curls.html" class="btn btn-dark">Take the curl quiz <span class="btn-arrow">→</span></a>
+          <a href="curls.html" class="btn btn-ghost" style="color: var(--ink); border-color: rgba(26,11,46,0.25);">Browse the guide</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNAL -->
+  <section class="section">
+    <div class="container">
+      <div class="reveal" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap: wrap; gap: 1.5rem;">
+        <div>
+          <span class="eyebrow">The Journal</span>
+          <h2 class="section-title">Curl stories, <span class="italic">island wisdom.</span></h2>
+        </div>
+        <a href="journal.html" class="btn btn-dark">Read all entries <span class="btn-arrow">→</span></a>
+      </div>
+
+      <div class="journal-grid">
+        <article class="journal-card reveal">
+          <div class="journal-img"><img src="assets/muse-hero.svg" alt="" /></div>
+          <div class="journal-meta"><span class="tag">Ritual</span><span>5 min read</span></div>
+          <h3 class="journal-title"><a href="journal.html">The wash day that doesn't end your weekend.</a></h3>
+          <p class="journal-snippet">A six-step Sunday ritual we stole from a hairdresser in Santo Domingo.</p>
+        </article>
+        <article class="journal-card reveal reveal-delay-1">
+          <div class="journal-img b"><img src="assets/muse-profile.svg" alt="" /></div>
+          <div class="journal-meta"><span class="tag">Ingredients</span><span>4 min read</span></div>
+          <h3 class="journal-title"><a href="journal.html">Why hibiscus is the hero your curls were waiting for.</a></h3>
+          <p class="journal-snippet">The botanical chemistry behind the lock-the-cuticle, shine-the-surface promise.</p>
+        </article>
+        <article class="journal-card reveal reveal-delay-2">
+          <div class="journal-img c"><img src="assets/muse-joy.svg" alt="" /></div>
+          <div class="journal-meta"><span class="tag">Conversation</span><span>7 min read</span></div>
+          <h3 class="journal-title"><a href="journal.html">My mother's hands, my hair, and twenty years of relaxer regret.</a></h3>
+          <p class="journal-snippet">Crystal on the long road from chemical straightening back to her own coil.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow" style="justify-content:center;">@frocurls on Instagram</span>
+        <h2 class="section-title" style="max-width: none; margin-left:auto; margin-right:auto;">A house of <span class="italic">curl muses.</span></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--coral), var(--hibiscus));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--carib), var(--plum));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--gold), var(--coral));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--orchid), var(--carib));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--hibiscus), var(--plum));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--turq), var(--gold));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--plum-deep), var(--coral));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--coral), var(--gold));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--carib), var(--orchid));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--orchid), var(--hibiscus));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--gold), var(--violet));"></div>
+        <div class="gallery-cell" style="background: linear-gradient(135deg, var(--ember), var(--coral));"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="section newsletter">
+    <div class="container reveal">
+      <span class="eyebrow" style="color: var(--gold); justify-content:center;">Letters from the atelier</span>
+      <h2>The <span class="italic">slow curl</span> letter.</h2>
+      <p>One letter a month. Curl rituals, founder essays, early access to limited drops.<br/>No noise. Promise.</p>
+      <form class="newsletter-form" data-stub>
+        <input type="email" placeholder="your@email.com" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Fro<em>Curls</em></div>
+        <div class="footer-tag">Crowns, conjured.</div>
+        <p class="footer-text">A Caribbean-born curl atelier. Hand-poured rituals for the boldest hair in the room.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TT</a>
+          <a href="#" aria-label="Pinterest">Pi</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All products</a></li>
+          <li><a href="products.html">Cleanse</a></li>
+          <li><a href="products.html">Hydrate</a></li>
+          <li><a href="products.html">Style</a></li>
+          <li><a href="products.html">Sets &amp; rituals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>The House</h4>
+        <ul>
+          <li><a href="about.html">About Crystal</a></li>
+          <li><a href="curls.html">Curl guide</a></li>
+          <li><a href="journal.html">Journal</a></li>
+          <li><a href="#">Press &amp; Vogue features</a></li>
+          <li><a href="#">Wholesale</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Service</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Shipping &amp; returns</a></li>
+          <li><a href="#">Curl guarantee</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Salons &amp; stylists</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FroCurls Atelier · All rights reserved</span>
+      <span>Made with curls in mind, in the Caribbean &amp; Brooklyn</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

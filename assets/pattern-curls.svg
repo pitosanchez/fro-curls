@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <pattern id="curlPattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.5">
+        <path d="M30 30 Q50 30 50 50 Q50 70 30 70"/>
+        <path d="M110 30 Q130 30 130 50 Q130 70 110 70"/>
+        <path d="M70 100 Q90 100 90 120 Q90 140 70 140"/>
+        <path d="M150 100 Q170 100 170 120 Q170 140 150 140"/>
+        <path d="M30 170 Q50 170 50 150"/>
+        <path d="M110 170 Q130 170 130 150"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="url(#curlPattern)"/>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E5C8C"/>
+      <stop offset="100%" stop-color="#2D0E3F"/>
+    </linearGradient>
+    <linearGradient id="skin2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D77A4A"/>
+      <stop offset="100%" stop-color="#6B2E22"/>
+    </linearGradient>
+    <linearGradient id="curls2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A0B2E"/>
+      <stop offset="100%" stop-color="#4A1E5C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#bg2)"/>
+
+  <!-- Coral splash background -->
+  <g fill="#FF6B35" opacity="0.7">
+    <ellipse cx="500" cy="200" rx="180" ry="220"/>
+  </g>
+  <g fill="#E91E63" opacity="0.55">
+    <ellipse cx="120" cy="600" rx="150" ry="180"/>
+  </g>
+
+  <!-- Massive curl cloud (profile view) -->
+  <g fill="url(#curls2)">
+    <ellipse cx="200" cy="220" rx="180" ry="200"/>
+    <ellipse cx="280" cy="160" rx="200" ry="140"/>
+    <ellipse cx="150" cy="350" rx="140" ry="180"/>
+    <ellipse cx="100" cy="500" rx="110" ry="150"/>
+    <circle cx="320" cy="120" r="80"/>
+    <circle cx="180" cy="100" r="70"/>
+  </g>
+
+  <!-- Curl pattern texture -->
+  <g fill="none" stroke="#FF6B35" stroke-width="3" opacity="0.4">
+    <circle cx="150" cy="200" r="25"/>
+    <circle cx="250" cy="160" r="20"/>
+    <circle cx="100" cy="350" r="30"/>
+    <circle cx="200" cy="430" r="22"/>
+    <circle cx="280" cy="240" r="18"/>
+  </g>
+
+  <!-- Profile face -->
+  <g>
+    <!-- Neck -->
+    <path d="M340 480 L320 700 L420 700 L420 500 Z" fill="url(#skin2)"/>
+    <!-- Profile head shape (facing right) -->
+    <path d="M350 200 Q450 220 470 320 Q480 400 460 460 Q450 490 420 500 Q380 510 340 490 Q310 470 310 420 Q300 350 320 280 Q330 220 350 200 Z" fill="url(#skin2)"/>
+    <!-- Nose profile -->
+    <path d="M460 350 Q485 365 480 385 Q475 395 465 395" fill="url(#skin2)"/>
+    <!-- Lips -->
+    <path d="M450 420 Q470 415 475 425 Q470 435 450 432 Z" fill="#9B3060"/>
+    <!-- Eye (side view) -->
+    <path d="M430 340 Q445 335 455 342" stroke="#1A0B2E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Lashes -->
+    <line x1="445" y1="338" x2="448" y2="328" stroke="#1A0B2E" stroke-width="2"/>
+    <line x1="438" y1="338" x2="438" y2="328" stroke="#1A0B2E" stroke-width="2"/>
+    <!-- Eyebrow -->
+    <path d="M425 320 Q445 313 460 320" stroke="#1A0B2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Cheek glow -->
+    <ellipse cx="430" cy="390" rx="20" ry="14" fill="#E91E63" opacity="0.3"/>
+    <!-- Ear -->
+    <ellipse cx="365" cy="380" rx="15" ry="22" fill="#6B2E22"/>
+    <!-- Gold hoop earring -->
+    <circle cx="365" cy="420" r="20" fill="none" stroke="#F5C260" stroke-width="4"/>
+  </g>
+
+  <!-- Front curls (over forehead, profile) -->
+  <g fill="url(#curls2)">
+    <ellipse cx="390" cy="240" rx="50" ry="70"/>
+    <ellipse cx="350" cy="290" rx="40" ry="60"/>
+    <circle cx="420" cy="260" r="35"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#F5C260">
+    <circle cx="500" cy="100" r="4"/>
+    <circle cx="80" cy="200" r="3"/>
+    <circle cx="540" cy="500" r="3"/>
+    <circle cx="50" cy="700" r="4"/>
+  </g>
+</svg>

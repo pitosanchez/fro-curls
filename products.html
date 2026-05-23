@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shop the FroCurls collection — hair oils, butters, gels, masks. Caribbean-bold curl care, hand-poured." />
+  <title>The Collection — FroCurls</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announce">
+    Free shipping on orders $60+ <span>✦</span> 30-day curl guarantee <span>✦</span> Made for island curls
+  </div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <nav class="nav-links">
+        <a href="index.html">The House</a>
+        <a href="products.html" class="is-active">Collection</a>
+        <a href="curls.html">Curl Guide</a>
+        <a href="about.html">About</a>
+        <a href="journal.html">Journal</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="index.html" class="brand"><span class="brand-mark">F</span>Fro<em>Curls</em></a>
+      <div class="nav-utility">
+        <button class="icon-btn" aria-label="Search">⌕</button>
+        <a href="#" class="cart-pill">Bag · 0</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-head">
+    <div class="container">
+      <span class="eyebrow">The Collection · 12 Pieces</span>
+      <h1>Hand-poured for <span class="italic">crowns.</span></h1>
+      <p>Twelve formulas. Four rituals. Built for hair that catches the breeze, the light, and every glance in the room.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="reveal" style="text-align:center;">
+        <span class="eyebrow" style="justify-content:center;">By Ritual</span>
+        <h2 class="section-title" style="margin-left:auto;margin-right:auto;">Build your <span class="italic">curl wardrobe.</span></h2>
+      </div>
+      <div class="category-strip">
+        <a class="category-card reveal" href="#cleanse"><div class="icon">01</div><h4>Cleanse</h4><p>Wash days that don't strip.</p></a>
+        <a class="category-card reveal reveal-delay-1" href="#hydrate"><div class="icon">02</div><h4>Hydrate</h4><p>Drench, mask, condition.</p></a>
+        <a class="category-card reveal reveal-delay-2" href="#style"><div class="icon">03</div><h4>Style</h4><p>Define, hold, finish.</p></a>
+        <a class="category-card reveal reveal-delay-3" href="#refresh"><div class="icon">04</div><h4>Refresh</h4><p>Second-day audacity.</p></a>
+      </div>
+
+      <div class="shop-filters reveal" style="margin-top: 4rem;">
+        <button class="is-active" data-category="all">All ✦ 12</button>
+        <button data-category="cleanse">Cleanse</button>
+        <button data-category="hydrate">Hydrate</button>
+        <button data-category="style">Style</button>
+        <button data-category="refresh">Refresh</button>
+        <button data-category="sets">Sets &amp; Rituals</button>
+      </div>
+
+      <div class="products-page-grid">
+        <article class="product-card gold reveal" data-product-cat="style">
+          <div class="product-img"><span class="product-badge bestseller">Bestseller</span><img src="assets/product-bottle.svg" alt="Sun-Drunk Curl Elixir" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Hair Oil</div>
+            <h3 class="product-name">Sun-Drunk Curl Elixir</h3>
+            <p class="product-desc">"For the days your hair wants to glow louder than you do."</p>
+            <div class="product-meta"><span class="product-price">$32</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card dark reveal reveal-delay-1" data-product-cat="style">
+          <div class="product-img"><span class="product-badge new">New</span><img src="assets/product-jar.svg" alt="Midnight Curl Butter" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Styling Butter</div>
+            <h3 class="product-name">Midnight Curl Butter</h3>
+            <p class="product-desc">"Hibiscus, mango, and slip that means business."</p>
+            <div class="product-meta"><span class="product-price">$38</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card blue reveal reveal-delay-2" data-product-cat="refresh">
+          <div class="product-img"><span class="product-badge">Daily</span><img src="assets/product-spray.svg" alt="Island Wake-Up Mist" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Refresh Mist</div>
+            <h3 class="product-name">Island Wake-Up Mist</h3>
+            <p class="product-desc">"Second-day curls, first-day audacity."</p>
+            <div class="product-meta"><span class="product-price">$26</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-product-cat="cleanse">
+          <div class="product-img" style="background: linear-gradient(160deg, var(--rose), var(--coral));"><img src="assets/product-bottle.svg" alt="Hibiscus Wash" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Cleansing Co-Wash</div>
+            <h3 class="product-name">Hibiscus Wash Day</h3>
+            <p class="product-desc">"Cleans without crying. Sulfate-free, prayer-tested."</p>
+            <div class="product-meta"><span class="product-price">$28</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card dark reveal reveal-delay-1" data-product-cat="hydrate">
+          <div class="product-img"><img src="assets/product-jar.svg" alt="Mango Velvet Mask" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Deep Mask</div>
+            <h3 class="product-name">Mango Velvet Mask</h3>
+            <p class="product-desc">"The thirty-minute spa your curls beg for on Sundays."</p>
+            <div class="product-meta"><span class="product-price">$42</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card blue reveal reveal-delay-2" data-product-cat="hydrate">
+          <div class="product-img"><img src="assets/product-spray.svg" alt="Coconut Leave-In" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Leave-In</div>
+            <h3 class="product-name">Coconut Cloud Leave-In</h3>
+            <p class="product-desc">"Featherweight hydration. No build-up. No regrets."</p>
+            <div class="product-meta"><span class="product-price">$30</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card gold reveal" data-product-cat="style">
+          <div class="product-img"><img src="assets/product-jar.svg" alt="Edge & Glow" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Edge Pomade</div>
+            <h3 class="product-name">Edges &amp; Audacity</h3>
+            <p class="product-desc">"Sleek baby hairs that hold through humidity, heatwaves, and heartbreak."</p>
+            <div class="product-meta"><span class="product-price">$22</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-1" data-product-cat="cleanse">
+          <div class="product-img" style="background: linear-gradient(160deg, var(--turq), var(--cream));"><img src="assets/product-bottle.svg" alt="Clarify" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Clarifying Shampoo</div>
+            <h3 class="product-name">Reset &amp; Reign</h3>
+            <p class="product-desc">"The monthly deep-clean for curls that demand a fresh start."</p>
+            <div class="product-meta"><span class="product-price">$30</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card blue reveal reveal-delay-2" data-product-cat="refresh">
+          <div class="product-img"><img src="assets/product-spray.svg" alt="Salt Air" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Beach Spritz</div>
+            <h3 class="product-name">Salt-Air Memory</h3>
+            <p class="product-desc">"Caribbean wave, bottled. Beach hair without the beach."</p>
+            <div class="product-meta"><span class="product-price">$28</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card gold reveal" data-product-cat="style">
+          <div class="product-img"><span class="product-badge new">New</span><img src="assets/product-jar.svg" alt="Flaxseed Gelée" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Defining Gelée</div>
+            <h3 class="product-name">Flaxseed Pageantry</h3>
+            <p class="product-desc">"Hold so honest it doesn't need plastic to back it up."</p>
+            <div class="product-meta"><span class="product-price">$26</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card dark reveal reveal-delay-1" data-product-cat="sets">
+          <div class="product-img"><span class="product-badge bestseller">Set</span><img src="assets/product-bottle.svg" alt="The Sunday Ritual set" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">The Sunday Set</div>
+            <h3 class="product-name">The Sunday Ritual</h3>
+            <p class="product-desc">"Wash · Mask · Leave-In · Cream. The full wash-day in one bow."</p>
+            <div class="product-meta"><span class="product-price">$108</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-2" data-product-cat="sets">
+          <div class="product-img" style="background: linear-gradient(160deg, var(--orchid), var(--carib));"><img src="assets/product-jar.svg" alt="Travel set" /></div>
+          <div class="product-info">
+            <div class="product-eyebrow">Travel Set</div>
+            <h3 class="product-name">Carry-On Crown</h3>
+            <p class="product-desc">"Four miniatures for the curls that won't be left at home."</p>
+            <div class="product-meta"><span class="product-price">$48</span><a href="#" class="product-add">Add to bag</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="editorial-quote">
+    <div class="container reveal">
+      <blockquote>"My wash day went from a chore to <span class="italic">a ceremony.</span>"</blockquote>
+      <cite>Yara · 4a coils · Brooklyn</cite>
+    </div>
+  </section>
+
+  <section class="section newsletter">
+    <div class="container reveal">
+      <span class="eyebrow" style="color: var(--gold); justify-content:center;">First in line</span>
+      <h2>New drops, <span class="italic">first.</span></h2>
+      <p>Subscribers get early access to limited formulas and atelier-only sets.</p>
+      <form class="newsletter-form" data-stub>
+        <input type="email" placeholder="your@email.com" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Fro<em>Curls</em></div>
+        <div class="footer-tag">Crowns, conjured.</div>
+        <p class="footer-text">A Caribbean-born curl atelier. Hand-poured rituals for the boldest hair in the room.</p>
+        <div class="socials"><a href="#">IG</a><a href="#">TT</a><a href="#">Pi</a><a href="#">YT</a></div>
+      </div>
+      <div class="footer-col"><h4>Shop</h4><ul><li><a href="products.html">All products</a></li><li><a href="products.html">Cleanse</a></li><li><a href="products.html">Hydrate</a></li><li><a href="products.html">Style</a></li><li><a href="products.html">Sets</a></li></ul></div>
+      <div class="footer-col"><h4>The House</h4><ul><li><a href="about.html">About Crystal</a></li><li><a href="curls.html">Curl guide</a></li><li><a href="journal.html">Journal</a></li><li><a href="#">Press</a></li><li><a href="#">Wholesale</a></li></ul></div>
+      <div class="footer-col"><h4>Service</h4><ul><li><a href="contact.html">Contact</a></li><li><a href="#">Shipping &amp; returns</a></li><li><a href="#">Curl guarantee</a></li><li><a href="#">FAQ</a></li><li><a href="#">Salons</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 FroCurls Atelier · All rights reserved</span><span>Made with curls in mind, in the Caribbean &amp; Brooklyn</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

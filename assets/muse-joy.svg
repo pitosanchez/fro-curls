@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="sunhalo" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="50%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#FF6B35"/>
+    </radialGradient>
+    <linearGradient id="skin3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A85C3A"/>
+      <stop offset="100%" stop-color="#5A2A1A"/>
+    </linearGradient>
+    <linearGradient id="curls3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A0B2E"/>
+      <stop offset="100%" stop-color="#3D1A4E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Warm cream background -->
+  <rect width="600" height="700" fill="#F0E6D2"/>
+
+  <!-- Sun halo behind head -->
+  <circle cx="300" cy="240" r="240" fill="url(#sunhalo)"/>
+
+  <!-- Halo lines -->
+  <g stroke="#D4A574" stroke-width="2" opacity="0.5" fill="none">
+    <line x1="300" y1="0" x2="300" y2="40"/>
+    <line x1="0" y1="240" x2="40" y2="240"/>
+    <line x1="600" y1="240" x2="560" y2="240"/>
+    <line x1="100" y1="60" x2="125" y2="90"/>
+    <line x1="500" y1="60" x2="475" y2="90"/>
+  </g>
+
+  <!-- Big curl crown -->
+  <g fill="url(#curls3)">
+    <ellipse cx="300" cy="140" rx="220" ry="120"/>
+    <ellipse cx="180" cy="180" rx="120" ry="140"/>
+    <ellipse cx="420" cy="180" rx="120" ry="140"/>
+    <circle cx="200" cy="100" r="55"/>
+    <circle cx="400" cy="100" r="55"/>
+    <circle cx="300" cy="70" r="60"/>
+    <ellipse cx="120" cy="280" rx="60" ry="80"/>
+    <ellipse cx="480" cy="280" rx="60" ry="80"/>
+  </g>
+
+  <!-- Face -->
+  <g>
+    <!-- Neck & shoulders -->
+    <path d="M250 460 L240 600 L360 600 L360 460 Z" fill="url(#skin3)"/>
+    <!-- Red dress hint -->
+    <path d="M180 580 Q300 560 420 580 L420 700 L180 700 Z" fill="#B83A3A"/>
+    <!-- Face -->
+    <ellipse cx="300" cy="350" rx="110" ry="135" fill="url(#skin3)"/>
+    <!-- Cheeks -->
+    <ellipse cx="245" cy="380" rx="28" ry="20" fill="#E91E63" opacity="0.4"/>
+    <ellipse cx="355" cy="380" rx="28" ry="20" fill="#E91E63" opacity="0.4"/>
+    <!-- Closed joyful eyes (laughing) -->
+    <path d="M240 330 q15 -10 30 0" stroke="#1A0B2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M330 330 q15 -10 30 0" stroke="#1A0B2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Eyebrows -->
+    <path d="M235 310 q15 -5 30 -1" stroke="#1A0B2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M335 309 q15 -4 30 1" stroke="#1A0B2E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M298 365 q-5 25 -2 45 q5 4 12 4 q7 0 12 -4 q3 -20 -2 -45" stroke="#5A2A1A" stroke-width="2" fill="none" opacity="0.6"/>
+    <!-- Big open smile -->
+    <path d="M250 430 Q300 480 350 430 Q330 460 300 462 Q270 460 250 430 Z" fill="#1A0B2E"/>
+    <!-- Teeth -->
+    <path d="M260 437 Q300 462 340 437 Q330 450 300 452 Q270 450 260 437 Z" fill="#FFFFFF"/>
+    <!-- Lips around smile -->
+    <path d="M245 425 Q300 415 355 425 Q345 440 300 440 Q255 440 245 425 Z" fill="#9B3060" opacity="0.4"/>
+  </g>
+
+  <!-- Gold earrings (big disc) -->
+  <circle cx="190" cy="410" r="22" fill="#F5C260"/>
+  <circle cx="190" cy="410" r="22" fill="none" stroke="#A8741A" stroke-width="2"/>
+  <circle cx="410" cy="410" r="22" fill="#F5C260"/>
+  <circle cx="410" cy="410" r="22" fill="none" stroke="#A8741A" stroke-width="2"/>
+
+  <!-- Heart pendant -->
+  <path d="M295 530 Q285 520 290 510 Q300 505 300 515 Q300 505 310 510 Q315 520 305 530 Q300 535 295 530 Z" fill="#F5C260"/>
+
+  <!-- Tiny stars -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="100" cy="120" r="3"/>
+    <circle cx="500" cy="140" r="3"/>
+    <circle cx="80" cy="350" r="2"/>
+    <circle cx="520" cy="370" r="2"/>
+  </g>
+</svg>
