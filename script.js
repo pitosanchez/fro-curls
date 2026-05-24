@@ -1,9 +1,15 @@
-// Mobile nav toggle
+// Mobile nav toggle — toggles both left + right link groups together
 const toggle = document.querySelector('.menu-toggle');
-const links = document.querySelector('.nav-links');
-if (toggle && links) {
-  toggle.addEventListener('click', () => links.classList.toggle('is-open'));
-  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('is-open')));
+const linkGroups = document.querySelectorAll('.nav-links');
+if (toggle && linkGroups.length) {
+  toggle.addEventListener('click', () => {
+    linkGroups.forEach(g => g.classList.toggle('is-open'));
+  });
+  linkGroups.forEach(g => {
+    g.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      linkGroups.forEach(other => other.classList.remove('is-open'));
+    }));
+  });
 }
 
 // Scroll reveal
